@@ -7,10 +7,17 @@ const normalizeBase = (value) => {
   }
 
   const withLeadingSlash = value.startsWith("/") ? value : `/${value}`;
-  return withLeadingSlash.endsWith("/") ? withLeadingSlash : `${withLeadingSlash}/`;
+
+  return withLeadingSlash.endsWith("/")
+    ? withLeadingSlash
+    : `${withLeadingSlash}/`;
 };
 
 export default defineConfig(({ command }) => ({
   plugins: [react()],
-  base: command === "build" ? normalizeBase(process.env.VITE_BASE_PATH || "/gc-finiture-edili/") : "/"
+
+  base:
+    command === "build"
+      ? normalizeBase(process.env.VITE_BASE_PATH || "/GC/")
+      : "/",
 }));
