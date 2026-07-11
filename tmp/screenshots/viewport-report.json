@@ -1,0 +1,226 @@
+{
+  "failures": [],
+  "viewportResults": [
+    {
+      "width": 320,
+      "metrics": {
+        "width": 320,
+        "scrollWidth": 320,
+        "overflow": 0,
+        "h1Count": 1,
+        "mobileBarDisplay": "grid",
+        "missingTargets": [],
+        "brokenImages": []
+      },
+      "menu": {
+        "opened": {
+          "expanded": "true",
+          "bodyLocked": true,
+          "visible": "visible"
+        },
+        "escaped": {
+          "expanded": "false",
+          "bodyLocked": false,
+          "visible": "hidden"
+        },
+        "outside": {
+          "expanded": "false",
+          "bodyLocked": false,
+          "visible": "hidden"
+        }
+      }
+    },
+    {
+      "width": 360,
+      "metrics": {
+        "width": 360,
+        "scrollWidth": 360,
+        "overflow": 0,
+        "h1Count": 1,
+        "mobileBarDisplay": "grid",
+        "missingTargets": [],
+        "brokenImages": []
+      },
+      "menu": {
+        "opened": {
+          "expanded": "true",
+          "bodyLocked": true,
+          "visible": "visible"
+        },
+        "escaped": {
+          "expanded": "false",
+          "bodyLocked": false,
+          "visible": "hidden"
+        },
+        "outside": {
+          "expanded": "false",
+          "bodyLocked": false,
+          "visible": "hidden"
+        }
+      }
+    },
+    {
+      "width": 375,
+      "metrics": {
+        "width": 375,
+        "scrollWidth": 375,
+        "overflow": 0,
+        "h1Count": 1,
+        "mobileBarDisplay": "grid",
+        "missingTargets": [],
+        "brokenImages": []
+      },
+      "menu": {
+        "opened": {
+          "expanded": "true",
+          "bodyLocked": true,
+          "visible": "visible"
+        },
+        "escaped": {
+          "expanded": "false",
+          "bodyLocked": false,
+          "visible": "hidden"
+        },
+        "outside": {
+          "expanded": "false",
+          "bodyLocked": false,
+          "visible": "hidden"
+        }
+      }
+    },
+    {
+      "width": 390,
+      "metrics": {
+        "width": 390,
+        "scrollWidth": 390,
+        "overflow": 0,
+        "h1Count": 1,
+        "mobileBarDisplay": "grid",
+        "missingTargets": [],
+        "brokenImages": []
+      },
+      "menu": {
+        "opened": {
+          "expanded": "true",
+          "bodyLocked": true,
+          "visible": "visible"
+        },
+        "escaped": {
+          "expanded": "false",
+          "bodyLocked": false,
+          "visible": "hidden"
+        },
+        "outside": {
+          "expanded": "false",
+          "bodyLocked": false,
+          "visible": "hidden"
+        }
+      }
+    },
+    {
+      "width": 430,
+      "metrics": {
+        "width": 430,
+        "scrollWidth": 430,
+        "overflow": 0,
+        "h1Count": 1,
+        "mobileBarDisplay": "grid",
+        "missingTargets": [],
+        "brokenImages": []
+      },
+      "menu": {
+        "opened": {
+          "expanded": "true",
+          "bodyLocked": true,
+          "visible": "visible"
+        },
+        "escaped": {
+          "expanded": "false",
+          "bodyLocked": false,
+          "visible": "hidden"
+        },
+        "outside": {
+          "expanded": "false",
+          "bodyLocked": false,
+          "visible": "hidden"
+        }
+      }
+    },
+    {
+      "width": 768,
+      "metrics": {
+        "width": 768,
+        "scrollWidth": 768,
+        "overflow": 0,
+        "h1Count": 1,
+        "mobileBarDisplay": "none",
+        "missingTargets": [],
+        "brokenImages": []
+      },
+      "menu": null
+    },
+    {
+      "width": 1024,
+      "metrics": {
+        "width": 1024,
+        "scrollWidth": 1024,
+        "overflow": 0,
+        "h1Count": 1,
+        "mobileBarDisplay": "none",
+        "missingTargets": [],
+        "brokenImages": []
+      },
+      "menu": null
+    },
+    {
+      "width": 1280,
+      "metrics": {
+        "width": 1280,
+        "scrollWidth": 1280,
+        "overflow": 0,
+        "h1Count": 1,
+        "mobileBarDisplay": "none",
+        "missingTargets": [],
+        "brokenImages": []
+      },
+      "menu": null
+    },
+    {
+      "width": 1440,
+      "metrics": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "overflow": 0,
+        "h1Count": 1,
+        "mobileBarDisplay": "none",
+        "missingTargets": [],
+        "brokenImages": []
+      },
+      "menu": null
+    }
+  ],
+  "reducedMotion": {
+    "count": 41,
+    "hiddenCount": 0
+  },
+  "legalResults": [
+    {
+      "route": "#/privacy",
+      "title": "Privacy Policy | GC Finiture Edili",
+      "h1Count": 1,
+      "h1": "Privacy Policy",
+      "canonical": "http://127.0.0.1:5173/#/privacy"
+    },
+    {
+      "route": "#/cookie",
+      "title": "Cookie Policy | GC Finiture Edili",
+      "h1Count": 1,
+      "h1": "Cookie Policy",
+      "canonical": "http://127.0.0.1:5173/#/cookie"
+    }
+  ],
+  "screenshots": [
+    "tmp/screenshots/home-390.png",
+    "tmp/screenshots/home-1440.png"
+  ]
+}

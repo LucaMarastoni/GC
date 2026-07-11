@@ -1,0 +1,788 @@
+{
+  "failures": [
+    "carousel swipe did not advance"
+  ],
+  "viewportResults": [
+    {
+      "width": 320,
+      "metrics": {
+        "width": 320,
+        "scrollWidth": 320,
+        "overflow": 0,
+        "h1Count": 1,
+        "mobileBarDisplay": "grid",
+        "logoCenterDelta": 0,
+        "navDisplay": "none",
+        "navTop": 0,
+        "heroHeight": 581,
+        "brokenImages": [],
+        "missingTargets": [],
+        "contactHrefs": [
+          {
+            "text": "WhatsApp",
+            "href": "#contatti"
+          },
+          {
+            "text": "Email",
+            "href": "#contatti"
+          },
+          {
+            "text": "Chiama ora",
+            "href": "#contatti"
+          },
+          {
+            "text": "WhatsApp",
+            "href": "#contatti"
+          },
+          {
+            "text": "Chiama ora",
+            "href": "#contatti"
+          },
+          {
+            "text": "Scrivi su WhatsApp",
+            "href": "#contatti"
+          },
+          {
+            "text": "Chiama Giulio",
+            "href": "#contatti"
+          },
+          {
+            "text": "Scrivi su WhatsApp",
+            "href": "#contatti"
+          },
+          {
+            "text": "Chiama ora",
+            "href": "#contatti"
+          },
+          {
+            "text": "WhatsApp",
+            "href": "#contatti"
+          },
+          {
+            "text": "Email",
+            "href": "#contatti"
+          },
+          {
+            "text": "Chiama",
+            "href": "#contatti"
+          },
+          {
+            "text": "WhatsApp",
+            "href": "#contatti"
+          }
+        ],
+        "footerAtBottom": true
+      },
+      "menu": {
+        "opened": {
+          "expanded": "true",
+          "bodyLocked": true,
+          "visible": "visible"
+        },
+        "escaped": {
+          "expanded": "false",
+          "bodyLocked": false,
+          "visible": "hidden"
+        },
+        "clicked": {
+          "expanded": "false",
+          "bodyLocked": false,
+          "visible": "hidden",
+          "hash": "#servizi"
+        }
+      }
+    },
+    {
+      "width": 360,
+      "metrics": {
+        "width": 360,
+        "scrollWidth": 360,
+        "overflow": 0,
+        "h1Count": 1,
+        "mobileBarDisplay": "grid",
+        "logoCenterDelta": 0,
+        "navDisplay": "none",
+        "navTop": 0,
+        "heroHeight": 581,
+        "brokenImages": [],
+        "missingTargets": [],
+        "contactHrefs": [
+          {
+            "text": "WhatsApp",
+            "href": "#contatti"
+          },
+          {
+            "text": "Email",
+            "href": "#contatti"
+          },
+          {
+            "text": "Chiama ora",
+            "href": "#contatti"
+          },
+          {
+            "text": "WhatsApp",
+            "href": "#contatti"
+          },
+          {
+            "text": "Chiama ora",
+            "href": "#contatti"
+          },
+          {
+            "text": "Scrivi su WhatsApp",
+            "href": "#contatti"
+          },
+          {
+            "text": "Chiama Giulio",
+            "href": "#contatti"
+          },
+          {
+            "text": "Scrivi su WhatsApp",
+            "href": "#contatti"
+          },
+          {
+            "text": "Chiama ora",
+            "href": "#contatti"
+          },
+          {
+            "text": "WhatsApp",
+            "href": "#contatti"
+          },
+          {
+            "text": "Email",
+            "href": "#contatti"
+          },
+          {
+            "text": "Chiama",
+            "href": "#contatti"
+          },
+          {
+            "text": "WhatsApp",
+            "href": "#contatti"
+          }
+        ],
+        "footerAtBottom": true
+      },
+      "menu": {
+        "opened": {
+          "expanded": "true",
+          "bodyLocked": true,
+          "visible": "visible"
+        },
+        "escaped": {
+          "expanded": "false",
+          "bodyLocked": false,
+          "visible": "hidden"
+        },
+        "clicked": {
+          "expanded": "false",
+          "bodyLocked": false,
+          "visible": "hidden",
+          "hash": "#servizi"
+        }
+      }
+    },
+    {
+      "width": 375,
+      "metrics": {
+        "width": 375,
+        "scrollWidth": 375,
+        "overflow": 0,
+        "h1Count": 1,
+        "mobileBarDisplay": "grid",
+        "logoCenterDelta": 0,
+        "navDisplay": "none",
+        "navTop": 0,
+        "heroHeight": 581,
+        "brokenImages": [],
+        "missingTargets": [],
+        "contactHrefs": [
+          {
+            "text": "WhatsApp",
+            "href": "#contatti"
+          },
+          {
+            "text": "Email",
+            "href": "#contatti"
+          },
+          {
+            "text": "Chiama ora",
+            "href": "#contatti"
+          },
+          {
+            "text": "WhatsApp",
+            "href": "#contatti"
+          },
+          {
+            "text": "Chiama ora",
+            "href": "#contatti"
+          },
+          {
+            "text": "Scrivi su WhatsApp",
+            "href": "#contatti"
+          },
+          {
+            "text": "Chiama Giulio",
+            "href": "#contatti"
+          },
+          {
+            "text": "Scrivi su WhatsApp",
+            "href": "#contatti"
+          },
+          {
+            "text": "Chiama ora",
+            "href": "#contatti"
+          },
+          {
+            "text": "WhatsApp",
+            "href": "#contatti"
+          },
+          {
+            "text": "Email",
+            "href": "#contatti"
+          },
+          {
+            "text": "Chiama",
+            "href": "#contatti"
+          },
+          {
+            "text": "WhatsApp",
+            "href": "#contatti"
+          }
+        ],
+        "footerAtBottom": true
+      },
+      "menu": {
+        "opened": {
+          "expanded": "true",
+          "bodyLocked": true,
+          "visible": "visible"
+        },
+        "escaped": {
+          "expanded": "false",
+          "bodyLocked": false,
+          "visible": "hidden"
+        },
+        "clicked": {
+          "expanded": "false",
+          "bodyLocked": false,
+          "visible": "hidden",
+          "hash": "#servizi"
+        }
+      }
+    },
+    {
+      "width": 390,
+      "metrics": {
+        "width": 390,
+        "scrollWidth": 390,
+        "overflow": 0,
+        "h1Count": 1,
+        "mobileBarDisplay": "grid",
+        "logoCenterDelta": 0,
+        "navDisplay": "none",
+        "navTop": 0,
+        "heroHeight": 581,
+        "brokenImages": [],
+        "missingTargets": [],
+        "contactHrefs": [
+          {
+            "text": "WhatsApp",
+            "href": "#contatti"
+          },
+          {
+            "text": "Email",
+            "href": "#contatti"
+          },
+          {
+            "text": "Chiama ora",
+            "href": "#contatti"
+          },
+          {
+            "text": "WhatsApp",
+            "href": "#contatti"
+          },
+          {
+            "text": "Chiama ora",
+            "href": "#contatti"
+          },
+          {
+            "text": "Scrivi su WhatsApp",
+            "href": "#contatti"
+          },
+          {
+            "text": "Chiama Giulio",
+            "href": "#contatti"
+          },
+          {
+            "text": "Scrivi su WhatsApp",
+            "href": "#contatti"
+          },
+          {
+            "text": "Chiama ora",
+            "href": "#contatti"
+          },
+          {
+            "text": "WhatsApp",
+            "href": "#contatti"
+          },
+          {
+            "text": "Email",
+            "href": "#contatti"
+          },
+          {
+            "text": "Chiama",
+            "href": "#contatti"
+          },
+          {
+            "text": "WhatsApp",
+            "href": "#contatti"
+          }
+        ],
+        "footerAtBottom": true
+      },
+      "menu": {
+        "opened": {
+          "expanded": "true",
+          "bodyLocked": true,
+          "visible": "visible"
+        },
+        "escaped": {
+          "expanded": "false",
+          "bodyLocked": false,
+          "visible": "hidden"
+        },
+        "clicked": {
+          "expanded": "false",
+          "bodyLocked": false,
+          "visible": "hidden",
+          "hash": "#servizi"
+        }
+      }
+    },
+    {
+      "width": 430,
+      "metrics": {
+        "width": 430,
+        "scrollWidth": 430,
+        "overflow": 0,
+        "h1Count": 1,
+        "mobileBarDisplay": "grid",
+        "logoCenterDelta": 0,
+        "navDisplay": "none",
+        "navTop": 0,
+        "heroHeight": 553,
+        "brokenImages": [],
+        "missingTargets": [],
+        "contactHrefs": [
+          {
+            "text": "WhatsApp",
+            "href": "#contatti"
+          },
+          {
+            "text": "Email",
+            "href": "#contatti"
+          },
+          {
+            "text": "Chiama ora",
+            "href": "#contatti"
+          },
+          {
+            "text": "WhatsApp",
+            "href": "#contatti"
+          },
+          {
+            "text": "Chiama ora",
+            "href": "#contatti"
+          },
+          {
+            "text": "Scrivi su WhatsApp",
+            "href": "#contatti"
+          },
+          {
+            "text": "Chiama Giulio",
+            "href": "#contatti"
+          },
+          {
+            "text": "Scrivi su WhatsApp",
+            "href": "#contatti"
+          },
+          {
+            "text": "Chiama ora",
+            "href": "#contatti"
+          },
+          {
+            "text": "WhatsApp",
+            "href": "#contatti"
+          },
+          {
+            "text": "Email",
+            "href": "#contatti"
+          },
+          {
+            "text": "Chiama",
+            "href": "#contatti"
+          },
+          {
+            "text": "WhatsApp",
+            "href": "#contatti"
+          }
+        ],
+        "footerAtBottom": true
+      },
+      "menu": {
+        "opened": {
+          "expanded": "true",
+          "bodyLocked": true,
+          "visible": "visible"
+        },
+        "escaped": {
+          "expanded": "false",
+          "bodyLocked": false,
+          "visible": "hidden"
+        },
+        "clicked": {
+          "expanded": "false",
+          "bodyLocked": false,
+          "visible": "hidden",
+          "hash": "#servizi"
+        }
+      }
+    },
+    {
+      "width": 768,
+      "metrics": {
+        "width": 768,
+        "scrollWidth": 768,
+        "overflow": 0,
+        "h1Count": 1,
+        "mobileBarDisplay": "none",
+        "logoCenterDelta": 0,
+        "navDisplay": "none",
+        "navTop": 0,
+        "heroHeight": 520,
+        "brokenImages": [],
+        "missingTargets": [],
+        "contactHrefs": [
+          {
+            "text": "WhatsApp",
+            "href": "#contatti"
+          },
+          {
+            "text": "Email",
+            "href": "#contatti"
+          },
+          {
+            "text": "Chiama ora",
+            "href": "#contatti"
+          },
+          {
+            "text": "WhatsApp",
+            "href": "#contatti"
+          },
+          {
+            "text": "Chiama ora",
+            "href": "#contatti"
+          },
+          {
+            "text": "Scrivi su WhatsApp",
+            "href": "#contatti"
+          },
+          {
+            "text": "Chiama Giulio",
+            "href": "#contatti"
+          },
+          {
+            "text": "Scrivi su WhatsApp",
+            "href": "#contatti"
+          },
+          {
+            "text": "Chiama ora",
+            "href": "#contatti"
+          },
+          {
+            "text": "WhatsApp",
+            "href": "#contatti"
+          },
+          {
+            "text": "Email",
+            "href": "#contatti"
+          },
+          {
+            "text": "Chiama",
+            "href": "#contatti"
+          },
+          {
+            "text": "WhatsApp",
+            "href": "#contatti"
+          }
+        ]
+      },
+      "menu": {
+        "opened": {
+          "expanded": "true",
+          "bodyLocked": true,
+          "visible": "visible"
+        },
+        "escaped": {
+          "expanded": "false",
+          "bodyLocked": false,
+          "visible": "hidden"
+        },
+        "clicked": {
+          "expanded": "false",
+          "bodyLocked": false,
+          "visible": "hidden",
+          "hash": "#servizi"
+        }
+      }
+    },
+    {
+      "width": 1024,
+      "metrics": {
+        "width": 1024,
+        "scrollWidth": 1024,
+        "overflow": 0,
+        "h1Count": 1,
+        "mobileBarDisplay": "none",
+        "logoCenterDelta": 0.015625,
+        "navDisplay": "block",
+        "navTop": 105,
+        "heroHeight": 620,
+        "brokenImages": [],
+        "missingTargets": [],
+        "contactHrefs": [
+          {
+            "text": "WhatsApp",
+            "href": "#contatti"
+          },
+          {
+            "text": "Email",
+            "href": "#contatti"
+          },
+          {
+            "text": "Chiama ora",
+            "href": "#contatti"
+          },
+          {
+            "text": "WhatsApp",
+            "href": "#contatti"
+          },
+          {
+            "text": "Chiama ora",
+            "href": "#contatti"
+          },
+          {
+            "text": "Scrivi su WhatsApp",
+            "href": "#contatti"
+          },
+          {
+            "text": "Chiama Giulio",
+            "href": "#contatti"
+          },
+          {
+            "text": "Scrivi su WhatsApp",
+            "href": "#contatti"
+          },
+          {
+            "text": "Chiama ora",
+            "href": "#contatti"
+          },
+          {
+            "text": "WhatsApp",
+            "href": "#contatti"
+          },
+          {
+            "text": "Email",
+            "href": "#contatti"
+          },
+          {
+            "text": "Chiama",
+            "href": "#contatti"
+          },
+          {
+            "text": "WhatsApp",
+            "href": "#contatti"
+          }
+        ],
+        "stickyAfterScroll": 0
+      },
+      "menu": null
+    },
+    {
+      "width": 1280,
+      "metrics": {
+        "width": 1280,
+        "scrollWidth": 1280,
+        "overflow": 0,
+        "h1Count": 1,
+        "mobileBarDisplay": "none",
+        "logoCenterDelta": 0,
+        "navDisplay": "block",
+        "navTop": 105,
+        "heroHeight": 633,
+        "brokenImages": [],
+        "missingTargets": [],
+        "contactHrefs": [
+          {
+            "text": "WhatsApp",
+            "href": "#contatti"
+          },
+          {
+            "text": "Email",
+            "href": "#contatti"
+          },
+          {
+            "text": "Chiama ora",
+            "href": "#contatti"
+          },
+          {
+            "text": "WhatsApp",
+            "href": "#contatti"
+          },
+          {
+            "text": "Chiama ora",
+            "href": "#contatti"
+          },
+          {
+            "text": "Scrivi su WhatsApp",
+            "href": "#contatti"
+          },
+          {
+            "text": "Chiama Giulio",
+            "href": "#contatti"
+          },
+          {
+            "text": "Scrivi su WhatsApp",
+            "href": "#contatti"
+          },
+          {
+            "text": "Chiama ora",
+            "href": "#contatti"
+          },
+          {
+            "text": "WhatsApp",
+            "href": "#contatti"
+          },
+          {
+            "text": "Email",
+            "href": "#contatti"
+          },
+          {
+            "text": "Chiama",
+            "href": "#contatti"
+          },
+          {
+            "text": "WhatsApp",
+            "href": "#contatti"
+          }
+        ],
+        "stickyAfterScroll": 0
+      },
+      "menu": null
+    },
+    {
+      "width": 1440,
+      "metrics": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "overflow": 0,
+        "h1Count": 1,
+        "mobileBarDisplay": "none",
+        "logoCenterDelta": 0,
+        "navDisplay": "block",
+        "navTop": 105,
+        "heroHeight": 633,
+        "brokenImages": [],
+        "missingTargets": [],
+        "contactHrefs": [
+          {
+            "text": "WhatsApp",
+            "href": "#contatti"
+          },
+          {
+            "text": "Email",
+            "href": "#contatti"
+          },
+          {
+            "text": "Chiama ora",
+            "href": "#contatti"
+          },
+          {
+            "text": "WhatsApp",
+            "href": "#contatti"
+          },
+          {
+            "text": "Chiama ora",
+            "href": "#contatti"
+          },
+          {
+            "text": "Scrivi su WhatsApp",
+            "href": "#contatti"
+          },
+          {
+            "text": "Chiama Giulio",
+            "href": "#contatti"
+          },
+          {
+            "text": "Scrivi su WhatsApp",
+            "href": "#contatti"
+          },
+          {
+            "text": "Chiama ora",
+            "href": "#contatti"
+          },
+          {
+            "text": "WhatsApp",
+            "href": "#contatti"
+          },
+          {
+            "text": "Email",
+            "href": "#contatti"
+          },
+          {
+            "text": "Chiama",
+            "href": "#contatti"
+          },
+          {
+            "text": "WhatsApp",
+            "href": "#contatti"
+          }
+        ],
+        "stickyAfterScroll": 0
+      },
+      "menu": null
+    }
+  ],
+  "carousel": {
+    "initialLabel": "Cartongesso",
+    "autoplayLabel": "Pitture interne",
+    "pausedLabel": "Pitture interne",
+    "afterPauseLabel": "Pitture interne",
+    "afterNextLabel": "Pitture esterne",
+    "afterSwipeLabel": "Pitture esterne"
+  },
+  "reducedMotion": {
+    "reducedInitial": "Cartongesso",
+    "reducedAfter": "Cartongesso"
+  },
+  "legalResults": [
+    {
+      "route": "#/privacy",
+      "title": "Privacy Policy | GC Finiture Edili",
+      "h1Count": 1,
+      "h1": "Privacy Policy",
+      "overflow": 0
+    },
+    {
+      "route": "#/cookie",
+      "title": "Cookie Policy | GC Finiture Edili",
+      "h1Count": 1,
+      "h1": "Cookie Policy",
+      "overflow": 0
+    }
+  ],
+  "screenshots": [
+    "tmp/screenshots/restyle-home-390.png",
+    "tmp/screenshots/restyle-home-1440.png"
+  ]
+}

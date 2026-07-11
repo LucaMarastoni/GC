@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="GC Finiture Edili">
+  <rect width="128" height="128" rx="22" fill="#30343a"/>
+  <path d="M24 62 64 28l40 34H88L64 42 40 62Z" fill="#f45b0b"/>
+  <rect x="28" y="76" width="14" height="26" rx="2" fill="#fff"/>
+  <rect x="50" y="76" width="14" height="26" rx="2" fill="#fff"/>
+  <rect x="72" y="76" width="14" height="26" rx="2" fill="#fff"/>
+  <rect x="94" y="76" width="14" height="26" rx="2" fill="#fff"/>
+</svg>
