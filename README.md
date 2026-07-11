@@ -16,7 +16,7 @@ npm install
 ## Avvio locale
 
 ```bash
-npm run dev
+npm run dev 
 ```
 
 ## Build
