@@ -2,7 +2,7 @@ import ContactButton from "./ContactButton.jsx";
 
 function FinalCTA() {
   return (
-    <section className="final-cta" aria-labelledby="final-cta-title">
+    <section className="final-cta" id="contatti" aria-labelledby="final-cta-title">
       <div className="container final-cta__inner" data-reveal>
         <div>
           <p className="eyebrow">Contatto diretto</p>

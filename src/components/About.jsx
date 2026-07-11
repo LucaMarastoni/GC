@@ -8,23 +8,23 @@ function About() {
       <div className="container about__grid">
         <div className="about__media" data-reveal>
           <img
-            src={assetPath("images/hero/pitture-interne.webp")}
-            alt="Ambiente interno in lavorazione con superfici protette e strumenti da tinteggiatura"
+            src={assetPath("images/about/imbianchino-al-lavoro.webp")}
+            alt="Imbianchino al lavoro con rullo su una parete interna"
             width="900"
             height="700"
             loading="lazy"
           />
         </div>
         <div className="about__content">
-          <SectionHeading eyebrow="Chi siamo" title="Un interlocutore diretto, dall'inizio alla finitura." />
+          <SectionHeading eyebrow="Chi siamo" title="Giulio Curinga, un riferimento diretto per ogni finitura." />
           <div className="rich-text" data-reveal>
             <p>
-              GC Finiture Edili segue lavorazioni in cartongesso, tinteggiatura e isolamento termico con attenzione alla
-              preparazione delle superfici, all'ordine del lavoro e alla qualità della finitura finale.
+              GC Finiture Edili è l'attività di Giulio Curinga, professionista specializzato in cartongesso,
+              tinteggiature interne ed esterne e soluzioni per l'isolamento termico.
             </p>
             <p>
-              L'attività opera da Vigasio verso Verona e i comuni della provincia, rivolgendosi a privati, uffici e
-              attività commerciali.
+              Ogni lavoro viene seguito con un confronto diretto, attenzione alla preparazione delle superfici e cura
+              della finitura finale, per abitazioni, uffici e attività commerciali in provincia di Verona.
             </p>
           </div>
           <div className="about__signature" data-reveal>

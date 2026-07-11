@@ -20,7 +20,11 @@
   --gutter: clamp(1rem, 3vw, 2rem);
   --header-height: 118px;
   --mobile-cta-height: 86px;
-  --font-sans: "Space Grotesk", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-body: "General Sans", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-heading: "Cabinet Grotesk", "General Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-number: "Cabinet Grotesk", "General Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-button: "General Sans", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-sans: var(--font-body);
   --gc-orange: var(--color-primary);
   --gc-orange-dark: var(--color-primary-dark);
   --gc-charcoal: var(--color-dark);

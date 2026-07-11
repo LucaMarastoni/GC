@@ -14,7 +14,7 @@ const navLinks = [
   { href: "#servizi", label: "Servizi" },
   { href: "#chi-siamo", label: "Chi siamo" },
   { href: "#lavori", label: "Lavorazioni" },
-  { href: "#perche-sceglierci", label: "Perché sceglierci" },
+  { href: "#area-operativa", label: "Area operativa" },
   { href: "#contatti", label: "Contatti" }
 ];
 

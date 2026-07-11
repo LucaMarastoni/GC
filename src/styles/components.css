@@ -348,9 +348,10 @@
 }
 
 .service-card__number {
+  font-family: var(--font-number);
   color: var(--color-primary);
   font-size: 0.78rem;
-  font-weight: 900;
+  font-weight: 800;
 }
 
 .service-card__icon {
@@ -480,9 +481,10 @@
 
 .project-card__body > p:first-child {
   margin: 0 0 0.55rem;
+  font-family: var(--font-number);
   color: var(--color-primary);
   font-size: 0.8rem;
-  font-weight: 900;
+  font-weight: 800;
   text-transform: uppercase;
 }
 
@@ -517,8 +519,9 @@
   display: flex;
   align-items: center;
   gap: 0.6rem;
+  font-family: var(--font-number);
   color: var(--color-primary-dark);
-  font-weight: 950;
+  font-weight: 800;
 }
 
 .area__grid {
@@ -1371,8 +1374,9 @@
 }
 
 .service-row button span {
+  font-family: var(--font-number);
   color: var(--color-primary);
-  font-weight: 820;
+  font-weight: 800;
 }
 
 .service-row button strong {
@@ -2062,5 +2066,271 @@
   .hero__arrow {
     width: 28px;
     height: 28px;
+  }
+}
+
+.mobile-menu {
+  pointer-events: none;
+  visibility: hidden;
+  opacity: 0;
+  transition:
+    opacity 0.18s ease,
+    visibility 0s linear 0.18s;
+}
+
+.mobile-menu.is-open {
+  pointer-events: auto;
+  visibility: visible;
+  opacity: 1;
+  transition:
+    opacity 0.18s ease,
+    visibility 0s linear 0s;
+}
+
+.mobile-menu__scrim {
+  opacity: 0;
+  transition: opacity 0.18s ease;
+}
+
+.mobile-menu.is-open .mobile-menu__scrim {
+  opacity: 1;
+}
+
+.mobile-menu__panel {
+  top: 0;
+  right: 0;
+  left: auto;
+  width: min(88vw, 390px);
+  height: 100%;
+  max-height: none;
+  border-bottom: 0;
+  border-left: 4px solid var(--color-primary);
+  box-shadow: -18px 0 34px rgba(32, 35, 40, 0.2);
+  transform: translate3d(104%, 0, 0);
+  backface-visibility: hidden;
+  will-change: transform;
+  transition: transform 0.24s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.mobile-menu.is-open .mobile-menu__panel {
+  transform: translate3d(0, 0, 0);
+}
+
+.mobile-menu__top {
+  display: grid;
+  grid-template-columns: 44px minmax(0, 1fr) 44px;
+  align-items: center;
+}
+
+.brand--menu {
+  grid-column: 2;
+  justify-content: center;
+}
+
+.mobile-menu__top .icon-button {
+  grid-column: 3;
+  justify-self: end;
+}
+
+.menu-toggle {
+  transition:
+    background 0.18s ease,
+    border-color 0.18s ease,
+    transform 0.18s ease;
+}
+
+.menu-toggle[aria-expanded="true"] {
+  background: var(--color-surface);
+  border-color: rgba(244, 91, 11, 0.35);
+}
+
+.projects__mobile-controls {
+  display: none;
+}
+
+.benefits__mobile-controls {
+  display: none;
+}
+
+.process__mobile-controls {
+  display: none;
+}
+
+@media (max-width: 719px) {
+  .benefits__carousel {
+    overflow: hidden;
+  }
+
+  .benefits__grid {
+    display: flex;
+    gap: 0;
+    transform: translateX(calc(var(--benefit-index, 0) * -100%));
+    transition: transform 0.32s ease;
+    will-change: transform;
+  }
+
+  .benefits__grid .benefit {
+    flex: 0 0 100%;
+    width: 100%;
+    min-height: 260px;
+  }
+
+  .benefits__mobile-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.7rem;
+    margin-top: 1rem;
+  }
+
+  .benefits__mobile-controls > button {
+    display: grid;
+    place-items: center;
+    width: 2rem;
+    height: 2rem;
+    border: 1px solid rgba(48, 52, 58, 0.12);
+    border-radius: 999px;
+    padding: 0;
+    background: #fff;
+    color: var(--color-dark);
+    box-shadow: 0 8px 18px rgba(32, 35, 40, 0.08);
+  }
+
+  .benefits__mobile-dots {
+    display: flex;
+    gap: 0.4rem;
+  }
+
+  .benefits__mobile-dots button {
+    width: 7px;
+    height: 7px;
+    border: 0;
+    border-radius: 999px;
+    padding: 0;
+    background: rgba(48, 52, 58, 0.22);
+  }
+
+  .benefits__mobile-dots button.is-active {
+    width: 18px;
+    background: var(--color-primary);
+  }
+
+  .process__carousel {
+    overflow: hidden;
+  }
+
+  .process__list {
+    display: flex;
+    gap: 0;
+    transform: translateX(calc(var(--process-index, 0) * -100%));
+    transition: transform 0.32s ease;
+    will-change: transform;
+  }
+
+  .process__list .process-step {
+    flex: 0 0 100%;
+    width: 100%;
+    min-height: 245px;
+  }
+
+  .process__mobile-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.7rem;
+    margin-top: 1rem;
+  }
+
+  .process__mobile-controls > button {
+    display: grid;
+    place-items: center;
+    width: 2rem;
+    height: 2rem;
+    border: 1px solid rgba(48, 52, 58, 0.12);
+    border-radius: 999px;
+    padding: 0;
+    background: #fff;
+    color: var(--color-dark);
+    box-shadow: 0 8px 18px rgba(32, 35, 40, 0.08);
+  }
+
+  .process__mobile-dots {
+    display: flex;
+    gap: 0.4rem;
+  }
+
+  .process__mobile-dots button {
+    width: 7px;
+    height: 7px;
+    border: 0;
+    border-radius: 999px;
+    padding: 0;
+    background: rgba(48, 52, 58, 0.22);
+  }
+
+  .process__mobile-dots button.is-active {
+    width: 18px;
+    background: var(--color-primary);
+  }
+
+  .projects__carousel {
+    overflow: hidden;
+  }
+
+  .projects__grid {
+    display: flex;
+    gap: 0;
+    transform: translateX(calc(var(--project-index, 0) * -100%));
+    transition: transform 0.32s ease;
+    will-change: transform;
+  }
+
+  .projects__grid .project-card {
+    flex: 0 0 100%;
+    width: 100%;
+    min-height: 360px;
+  }
+
+  .projects__grid .project-card__image {
+    min-height: 360px;
+  }
+
+  .projects__mobile-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.7rem;
+    margin-top: 1rem;
+  }
+
+  .projects__mobile-controls > button {
+    display: grid;
+    place-items: center;
+    width: 2rem;
+    height: 2rem;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 999px;
+    padding: 0;
+    background: rgba(255, 255, 255, 0.08);
+    color: #fff;
+  }
+
+  .projects__mobile-dots {
+    display: flex;
+    gap: 0.4rem;
+  }
+
+  .projects__mobile-dots button {
+    width: 7px;
+    height: 7px;
+    border: 0;
+    border-radius: 999px;
+    padding: 0;
+    background: rgba(255, 255, 255, 0.34);
+  }
+
+  .projects__mobile-dots button.is-active {
+    width: 18px;
+    background: var(--color-primary);
   }
 }
