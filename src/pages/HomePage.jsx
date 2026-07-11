@@ -15,8 +15,8 @@ function HomePage() {
     <>
       <Hero />
       <IntroSplitSection />
-      <Reviews />
       <Services />
+      <Reviews />
       <About />
       <Projects />
       <ServiceArea />

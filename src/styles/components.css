@@ -2144,6 +2144,416 @@
   border-color: rgba(244, 91, 11, 0.35);
 }
 
+.services-modern {
+  scroll-margin-top: calc(var(--header-height) + 12px);
+  background: #fff;
+}
+
+.services-modern__mobile {
+  display: none;
+}
+
+.services-modern__desktop {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(360px, 0.82fr);
+  gap: clamp(2.4rem, 6vw, 5rem);
+  align-items: start;
+}
+
+.services-modern__copy,
+.services-modern__overview,
+.services-modern__detail {
+  display: grid;
+  align-content: start;
+}
+
+.services-modern__eyebrow {
+  margin: 0 0 0.85rem;
+  color: var(--color-primary);
+  font-family: var(--font-button);
+  font-size: 0.78rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.services-modern h2 {
+  max-width: 12ch;
+  margin: 0;
+  color: var(--color-dark-strong);
+  font-size: clamp(2.15rem, 5vw, 4.2rem);
+  line-height: 0.96;
+}
+
+.services-modern__copy > p:not(.services-modern__eyebrow),
+.services-modern__overview > p:not(.services-modern__eyebrow),
+.services-modern__detail > p {
+  max-width: 58ch;
+  margin: 1.1rem 0 0;
+  color: var(--color-muted);
+}
+
+.services-modern__list {
+  display: grid;
+  gap: 0.9rem;
+  margin-top: clamp(1.7rem, 4vw, 2.6rem);
+}
+
+.service-modern-card {
+  width: 100%;
+  min-height: 112px;
+  display: grid;
+  grid-template-columns: 3.3rem minmax(0, 1fr) 2rem;
+  align-items: center;
+  gap: 1rem;
+  border: 1px solid rgba(228, 228, 225, 0.96);
+  border-radius: 16px;
+  padding: 1.05rem;
+  background: #fff;
+  color: var(--color-dark);
+  text-align: left;
+  box-shadow: 0 8px 24px rgba(32, 35, 40, 0.045);
+  cursor: pointer;
+  transition:
+    transform 0.22s ease,
+    border-color 0.22s ease,
+    background 0.22s ease,
+    box-shadow 0.22s ease;
+}
+
+.service-modern-card:hover,
+.service-modern-card:focus-visible,
+.service-modern-card.is-active {
+  border-color: rgba(244, 91, 11, 0.45);
+  background: rgba(244, 91, 11, 0.045);
+  box-shadow: 0 12px 28px rgba(32, 35, 40, 0.07);
+}
+
+.service-modern-card:hover,
+.service-modern-card:focus-visible {
+  transform: translateY(-2px);
+}
+
+.service-modern-card:active {
+  transform: translateY(0);
+}
+
+.service-modern__icon {
+  display: grid;
+  place-items: center;
+  width: 3.3rem;
+  height: 3.3rem;
+  border: 1px solid rgba(228, 228, 225, 0.96);
+  border-radius: 14px;
+  background: #fbfbfa;
+}
+
+.service-modern__icon img,
+.services-modern__compact-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.service-modern__icon img {
+  max-width: 2.2rem;
+  max-height: 2.2rem;
+}
+
+.service-modern-card__body {
+  display: grid;
+  gap: 0.25rem;
+  min-width: 0;
+}
+
+.service-modern-card__number,
+.services-modern__counter,
+.services-modern__compact-item span,
+.services-modern__visual-body > span {
+  color: var(--color-primary);
+  font-family: var(--font-number);
+  font-weight: 800;
+}
+
+.service-modern-card__body strong {
+  color: var(--color-dark-strong);
+  font-size: clamp(1.08rem, 2vw, 1.28rem);
+  line-height: 1.12;
+}
+
+.service-modern-card__body > span:last-child {
+  color: var(--color-muted);
+  font-size: 0.96rem;
+  line-height: 1.45;
+}
+
+.service-modern__arrow {
+  justify-self: end;
+  color: var(--color-primary);
+  font-size: 1.35rem;
+  line-height: 1;
+  transition: transform 0.22s ease;
+}
+
+.service-modern-card:hover .service-modern__arrow,
+.service-modern-card:focus-visible .service-modern__arrow,
+.service-modern-card.is-active .service-modern__arrow,
+.services-modern__compact-item.is-active .service-modern__arrow {
+  transform: translateX(3px);
+}
+
+.services-modern__visual {
+  position: sticky;
+  top: calc(var(--header-height) + 68px);
+  display: grid;
+  gap: 1.2rem;
+  border: 1px solid rgba(228, 228, 225, 0.96);
+  border-radius: 18px;
+  padding: 1rem;
+  background: #fff;
+  box-shadow: 0 16px 38px rgba(32, 35, 40, 0.08);
+}
+
+.services-modern__image-wrap {
+  overflow: hidden;
+  aspect-ratio: 4 / 3;
+  border-radius: 17px;
+  background: var(--color-surface);
+  animation: servicesFade 0.22s ease both;
+}
+
+.services-modern__image-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.services-modern__visual-body {
+  display: grid;
+  gap: 0.55rem;
+  padding: 0 0.35rem 0.35rem;
+}
+
+.services-modern__visual-body h3 {
+  margin: 0;
+  color: var(--color-dark-strong);
+}
+
+.services-modern__visual-body p {
+  margin: 0;
+}
+
+.services-modern__cta {
+  min-height: 48px;
+  width: fit-content;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 0.45rem;
+  border-radius: 999px;
+  padding: 0.85rem 1.1rem;
+  background: var(--color-primary);
+  color: #fff;
+  font-family: var(--font-button);
+  font-weight: 500;
+  transition:
+    background 0.2s ease,
+    transform 0.2s ease;
+}
+
+.services-modern__cta:hover,
+.services-modern__cta:focus-visible {
+  background: var(--color-primary-dark);
+  transform: translateY(-1px);
+}
+
+.services-modern__detail {
+  animation: none;
+}
+
+.services-modern__back {
+  width: fit-content;
+  min-height: 44px;
+  border: 0;
+  padding: 0;
+  background: transparent;
+  color: var(--color-primary-dark);
+  font-family: var(--font-button);
+  font-weight: 600;
+}
+
+.services-modern__counter {
+  margin-top: 0.75rem;
+}
+
+.services-modern__dots {
+  display: flex;
+  justify-content: center;
+  gap: 0.45rem;
+  margin-top: 1rem;
+}
+
+.services-modern__dots button {
+  width: 8px;
+  height: 8px;
+  border: 0;
+  border-radius: 999px;
+  padding: 0;
+  background: rgba(48, 52, 58, 0.24);
+}
+
+.services-modern__dots button.is-active {
+  width: 22px;
+  background: var(--color-primary);
+}
+
+.services-modern__pager {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.7rem;
+  margin-top: 1rem;
+}
+
+.services-modern__pager button {
+  min-height: 46px;
+  border: 1px solid var(--color-border);
+  border-radius: 999px;
+  padding: 0.75rem 0.9rem;
+  background: #fff;
+  color: var(--color-dark);
+  font-family: var(--font-button);
+  font-weight: 500;
+}
+
+.services-modern__pager button:disabled {
+  opacity: 0.44;
+}
+
+.services-modern__compact {
+  display: grid;
+  gap: 0.65rem;
+  margin-top: 1.4rem;
+}
+
+.services-modern__compact h3 {
+  margin: 0 0 0.15rem;
+}
+
+.services-modern__compact-item {
+  min-height: 52px;
+  display: grid;
+  grid-template-columns: 1.7rem 2rem minmax(0, 1fr) 1.3rem;
+  align-items: center;
+  gap: 0.65rem;
+  border: 1px solid var(--color-border);
+  border-radius: 14px;
+  padding: 0.7rem;
+  background: #fff;
+  color: var(--color-dark);
+  text-align: left;
+}
+
+.services-modern__compact-item.is-active {
+  border-color: rgba(244, 91, 11, 0.48);
+  background: rgba(244, 91, 11, 0.05);
+}
+
+.services-modern__compact-item img {
+  max-width: 1.55rem;
+  max-height: 1.55rem;
+}
+
+.services-modern__compact-item strong {
+  overflow-wrap: anywhere;
+}
+
+@keyframes servicesFade {
+  from {
+    opacity: 0.92;
+    transform: translateY(3px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 767px) {
+  .services-modern {
+    padding-block: clamp(3.4rem, 12vw, 5.2rem);
+  }
+
+  .services-modern__desktop {
+    display: none;
+  }
+
+  .services-modern__mobile {
+    display: block;
+  }
+
+  .services-modern h2 {
+    max-width: 13ch;
+    font-size: clamp(2.2rem, 10.5vw, 3.2rem);
+  }
+
+  .services-modern__list {
+    gap: 0.82rem;
+    margin-top: 1.6rem;
+  }
+
+  .service-modern-card {
+    grid-template-columns: 3rem minmax(0, 1fr) 1.6rem;
+    gap: 0.8rem;
+    min-height: 118px;
+    padding: 0.95rem;
+  }
+
+  .service-modern__icon {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .service-modern-card__body > span:last-child {
+    font-size: 0.93rem;
+  }
+
+  .services-modern__detail .services-modern__image-wrap {
+    margin-top: 1rem;
+  }
+
+  .services-modern__cta {
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  .services-modern__compact {
+    padding-bottom: calc(var(--mobile-cta-height) * 0.35);
+  }
+}
+
+@media (max-width: 360px) {
+  .service-modern-card {
+    grid-template-columns: 2.75rem minmax(0, 1fr);
+  }
+
+  .service-modern-card > .service-modern__arrow {
+    grid-column: 2;
+    justify-self: start;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .service-modern-card,
+  .service-modern__arrow,
+  .services-modern__cta,
+  .services-modern__image-wrap,
+  .services-modern__detail {
+    animation: none;
+    transition-duration: 0.01ms;
+  }
+}
+
 .projects__mobile-controls {
   display: none;
 }
