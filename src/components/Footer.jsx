@@ -1,4 +1,5 @@
-import { MessageCircle, Phone } from "lucide-react";
+import { Phone } from "lucide-react";
+import WhatsAppIcon from "./WhatsAppIcon.jsx";
 import { company } from "../data/company.js";
 import { displayValue, formatAddress } from "../utils/links.js";
 
@@ -47,7 +48,7 @@ function Footer({ logoSrc }) {
             {displayValue(company.phone)}
           </p>
           <p>
-            <MessageCircle size={16} aria-hidden="true" />
+            <WhatsAppIcon size={16} aria-hidden="true" />
             {displayValue(company.whatsapp)}
           </p>
         </div>

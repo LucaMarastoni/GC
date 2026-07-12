@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
-import { Menu, MessageCircle, Phone } from "lucide-react";
+import { Menu, Phone } from "lucide-react";
 import MobileMenu from "./MobileMenu.jsx";
+import WhatsAppIcon from "./WhatsAppIcon.jsx";
 import { company } from "../data/company.js";
 import {
   displayValue,
@@ -72,7 +73,7 @@ function Header({ logoSrc }) {
             target={whatsappHref ? "_blank" : undefined}
             rel={whatsappHref ? "noreferrer" : undefined}
           >
-            <MessageCircle size={18} aria-hidden="true" />
+            <WhatsAppIcon size={18} aria-hidden="true" />
             <span>WhatsApp</span>
           </a>
 

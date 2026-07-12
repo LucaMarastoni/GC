@@ -1,9 +1,10 @@
-import { ArrowRight, MessageCircle, Phone } from "lucide-react";
+import { ArrowRight, Phone } from "lucide-react";
+import WhatsAppIcon from "./WhatsAppIcon.jsx";
 import { getFallbackContactHref, getPhoneHref, getWhatsAppHref } from "../utils/links.js";
 
 const iconMap = {
   phone: Phone,
-  whatsapp: MessageCircle,
+  whatsapp: WhatsAppIcon,
   arrow: ArrowRight
 };
 

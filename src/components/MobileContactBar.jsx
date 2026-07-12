@@ -1,4 +1,5 @@
-import { MessageCircle, Phone } from "lucide-react";
+import { Phone } from "lucide-react";
+import WhatsAppIcon from "./WhatsAppIcon.jsx";
 import { getFallbackContactHref, getPhoneHref, getWhatsAppHref } from "../utils/links.js";
 
 function MobileContactBar() {
@@ -17,7 +18,7 @@ function MobileContactBar() {
         target={whatsappHref ? "_blank" : undefined}
         rel={whatsappHref ? "noreferrer" : undefined}
       >
-        <MessageCircle size={20} aria-hidden="true" />
+        <WhatsAppIcon size={20} aria-hidden="true" />
         <span>WhatsApp</span>
       </a>
     </nav>
