@@ -55,7 +55,6 @@ function Footer({ logoSrc }) {
       </div>
       <div className="container site-footer__bottom">
         <span>© {year} {company.name}</span>
-        <span>Dati e testi legali da verificare prima della pubblicazione definitiva.</span>
       </div>
     </footer>
   );

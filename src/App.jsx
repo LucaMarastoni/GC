@@ -43,7 +43,7 @@ function App() {
     const pageDescription =
       route === "home"
         ? "GC Finiture Edili opera a Vigasio e in provincia di Verona con servizi di cartongesso, pitture interne ed esterne e isolamento termico."
-        : "Bozza informativa per GC Finiture Edili, da verificare prima della pubblicazione definitiva.";
+        : "Informativa di GC Finiture Edili su privacy, cookie e trattamento dei dati.";
 
     document.title = pageTitle;
 

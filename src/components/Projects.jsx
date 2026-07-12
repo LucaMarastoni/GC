@@ -36,11 +36,10 @@ function Projects() {
       <div className="container">
         <SectionHeading
           eyebrow="Lavorazioni e soluzioni"
-          title="Una raccolta visiva pronta per fotografie autentiche."
-          text="Le immagini attuali restano temporanee: la struttura è predisposta per sostituirle con lavorazioni reali."
+          title="Esempi di lavorazioni per interni ed esterni."
+          text="Soluzioni in cartongesso, pitture e isolamento pensate per abitazioni, uffici e attività commerciali."
         />
 
-        {/* Dati e immagini provvisori: sostituire con fotografie autentiche appena disponibili. */}
         <div
           className="projects__carousel"
           onPointerDown={(event) => {
