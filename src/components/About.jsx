@@ -8,8 +8,8 @@ function About() {
       <div className="container about__grid">
         <div className="about__media" data-reveal>
           <img
-            src={assetPath("images/about/imbianchino-al-lavoro.webp")}
-            alt="Imbianchino al lavoro con rullo su una parete interna"
+            src={assetPath("images/photos/CD8F6436-7C85-4895-8B88-7F22AC5D5064_1_105_c.jpeg")}
+            alt="Ambiente interno rifinito con cucina, controsoffitto e illuminazione lineare"
             width="900"
             height="700"
             loading="lazy"

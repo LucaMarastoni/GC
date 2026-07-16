@@ -26,7 +26,7 @@ export const getJsonLd = () => {
     "@type": "LocalBusiness",
     name: company.name,
     legalName: company.legalName,
-    image: assetPath("images/hero/cartongesso.webp"),
+    image: assetPath("images/photos/CD8F6436-7C85-4895-8B88-7F22AC5D5064_1_105_c.jpeg"),
     vatID: company.europeanVat,
     address: {
       "@type": "PostalAddress",

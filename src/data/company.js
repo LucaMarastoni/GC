@@ -12,10 +12,10 @@ export const company = {
     country: "Italia"
   },
   area: "Vigasio, Verona e tutta la provincia di Verona",
-  phone: "347 3697557",
-  whatsapp: "347 3697557",
-  email: "INSERIRE_EMAIL",
-  domain: "INSERIRE_DOMINIO",
+  phone: "+39 389 842 2177",
+  whatsapp: "+39 389 842 2177",
+  email: "",
+  domain: "https://lucamarastoni.github.io/GC",
   logo: "images/logo-gc-finiture-edili.png",
   mapsQuery: "Via Celestino Tomelleri 72, 37068 Vigasio VR",
   whatsappMessage: ""

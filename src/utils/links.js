@@ -1,19 +1,13 @@
 import { company } from "../data/company.js";
 
-const missingValues = new Set([
-  "",
-  "INSERIRE_NUMERO_TELEFONO",
-  "INSERIRE_NUMERO_WHATSAPP",
-  "INSERIRE_EMAIL",
-  "INSERIRE_DOMINIO"
-]);
+const missingValues = new Set([""]);
 
 export const isMissingValue = (value) => !value || missingValues.has(String(value).trim());
 
 export const formatAddress = () =>
   `${company.address.street}, ${company.address.postalCode} ${company.address.city} (${company.address.province})`;
 
-export const displayValue = (value) => (isMissingValue(value) ? "Da inserire" : value);
+export const displayValue = (value) => (isMissingValue(value) ? "" : value);
 
 export const normalizePhone = (value, { whatsapp = false } = {}) => {
   if (isMissingValue(value)) {

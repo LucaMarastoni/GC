@@ -10,8 +10,9 @@ function CookiePage() {
         <section>
           <h2>Cookie usati dal sito</h2>
           <p>
-            Nella configurazione attuale il sito non imposta direttamente cookie tramite codice applicativo e non usa
-            cookie di profilazione, strumenti di analytics, pixel pubblicitari, iframe di mappe o video incorporati.
+            Il sito non imposta cookie di profilazione e non usa strumenti di analytics, pixel pubblicitari, iframe di
+            mappe o video incorporati. La navigazione è possibile senza consenso a finalità statistiche o pubblicitarie,
+            perché tali strumenti non sono presenti.
           </p>
         </section>
 
@@ -36,21 +37,20 @@ function CookiePage() {
         </section>
 
         <section>
-          <h2>È necessario un banner cookie?</h2>
+          <h2>Consenso cookie</h2>
           <p>
-            Nella configurazione attuale non è previsto un banner cookie, perché il sito non installa cookie non tecnici
-            prima del consenso e non utilizza strumenti di tracciamento, analytics o profilazione. Se in futuro verranno
-            aggiunti Google Analytics, Meta Pixel, mappe o video incorporati, chat esterne, strumenti di marketing o
-            altri servizi che impostano cookie non tecnici, sarà necessario rivalutare l'informativa e introdurre un
-            sistema di consenso adeguato.
+            Il sito non installa cookie non tecnici prima del consenso e non usa strumenti di tracciamento, analytics o
+            profilazione. Per questo non viene mostrato un banner di consenso. Se in futuro verranno aggiunti servizi che
+            richiedono consenso, questa informativa e la gestione delle preferenze saranno aggiornate prima
+            dell'attivazione.
           </p>
         </section>
 
         <section>
           <h2>Gestione dal browser</h2>
           <p>
-            L'utente può gestire, bloccare o cancellare i cookie attraverso le impostazioni del proprio browser. La
-            disattivazione di cookie tecnici eventualmente usati da servizi esterni può incidere sul corretto
+            L'utente può gestire, bloccare o cancellare cookie e dati locali attraverso le impostazioni del proprio
+            browser. La disattivazione di cookie tecnici eventualmente usati da servizi esterni può incidere sul corretto
             funzionamento di tali servizi.
           </p>
         </section>

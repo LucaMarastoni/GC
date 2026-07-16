@@ -20,6 +20,10 @@ function Reviews() {
     return () => window.clearInterval(interval);
   }, [hasReviews]);
 
+  if (!hasReviews && !reviews.profileUrl) {
+    return null;
+  }
+
   return (
     <section className="section reviews" id="recensioni">
       <div className="container">
@@ -56,20 +60,15 @@ function Reviews() {
               ))}
             </div>
           </div>
-        ) : (
+        ) : reviews.profileUrl ? (
           <div className="reviews__empty" data-reveal>
             <Star size={28} aria-hidden="true" />
-            <p>
-              Quando saranno disponibili recensioni autentiche o un profilo professionale verificabile, questa sezione
-              potrà essere aggiornata dal file dati dedicato.
-            </p>
-            {reviews.profileUrl ? (
-              <a href={reviews.profileUrl} target="_blank" rel="noreferrer">
-                Consulta il profilo professionale <ExternalLink size={16} aria-hidden="true" />
-              </a>
-            ) : null}
+            <p>Consulta il profilo professionale per leggere le recensioni pubbliche disponibili.</p>
+            <a href={reviews.profileUrl} target="_blank" rel="noreferrer">
+              Consulta il profilo professionale <ExternalLink size={16} aria-hidden="true" />
+            </a>
           </div>
-        )}
+        ) : null}
       </div>
     </section>
   );

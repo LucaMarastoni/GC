@@ -19,7 +19,7 @@ function ContactButton({ type = "phone", children, className = "", size = "defau
       href={href || getFallbackContactHref()}
       target={type === "whatsapp" && href ? "_blank" : undefined}
       rel={type === "whatsapp" && href ? "noreferrer" : undefined}
-      aria-label={isMissing ? `${children} - dato di contatto da inserire` : undefined}
+      aria-label={isMissing ? `${children} - contatto non disponibile` : undefined}
     >
       <Icon size={20} aria-hidden="true" />
       <span>{children}</span>

@@ -19,10 +19,11 @@ function PrivacyPage() {
         <section>
           <h2>Dati trattati tramite il sito</h2>
           <p>
-            Il sito non prevede registrazione, aree riservate, form di contatto, database utenti o invio diretto di dati
-            a un backend. La navigazione può comportare il trattamento di dati tecnici normalmente trasmessi dal browser,
-            come indirizzo IP, informazioni sul dispositivo, data e ora della richiesta e pagine visitate, da parte della
-            piattaforma di hosting e dei servizi tecnici necessari alla visualizzazione del sito.
+            Il sito è una vetrina statica e non prevede registrazione, aree riservate, form di contatto, database utenti
+            o invio diretto di dati a un backend. La navigazione può comportare il trattamento di dati tecnici
+            normalmente trasmessi dal browser, come indirizzo IP, informazioni sul dispositivo, data e ora della richiesta
+            e pagine visitate, da parte della piattaforma di hosting e dei servizi necessari alla visualizzazione del
+            sito.
           </p>
         </section>
 
@@ -50,8 +51,8 @@ function PrivacyPage() {
           <p>
             Il sito può caricare risorse tecniche da fornitori esterni, ad esempio file font da Fontshare e file statici
             dalla piattaforma di hosting. Tali fornitori possono ricevere dati tecnici necessari alla richiesta della
-            risorsa, come l'indirizzo IP e informazioni sul browser. Non sono presenti, nella configurazione attuale,
-            strumenti di analytics, pixel pubblicitari, aree riservate o mappe incorporate.
+            risorsa, come l'indirizzo IP e informazioni sul browser. Il sito non usa strumenti di analytics, pixel
+            pubblicitari, aree riservate, mappe incorporate o video incorporati.
           </p>
         </section>
 
