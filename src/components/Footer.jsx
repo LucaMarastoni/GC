@@ -54,7 +54,12 @@ function Footer({ logoSrc }) {
         </div>
       </div>
       <div className="container site-footer__bottom">
-        <span>© {year} {company.name}</span>
+        <span>
+          © {year} {company.name}
+        </span>
+        <a className="site-footer__credit" href="https://lucamarastoni.eu" target="_blank" rel="noreferrer">
+          Realizzato da Luca Marastoni Digital Solutions
+        </a>
       </div>
     </footer>
   );

@@ -7,7 +7,7 @@ import PrivacyPage from "./pages/PrivacyPage.jsx";
 import CookiePage from "./pages/CookiePage.jsx";
 import { company } from "./data/company.js";
 import { assetPath } from "./utils/assets.js";
-import { getCanonicalUrl, getJsonLd } from "./utils/seo.js";
+import { getCanonicalUrl, getJsonLd, getPageSeo } from "./utils/seo.js";
 
 const getRoute = () => {
   const hash = window.location.hash;
@@ -33,24 +33,30 @@ function App() {
   }, []);
 
   useEffect(() => {
-    const pageTitle =
-      route === "privacy"
-        ? "Privacy Policy | GC Finiture Edili"
-        : route === "cookie"
-          ? "Cookie Policy | GC Finiture Edili"
-          : "GC Finiture Edili | Cartongesso, pitture e isolamento a Verona";
+    const pageSeo = getPageSeo(route);
 
-    const pageDescription =
-      route === "home"
-        ? "GC Finiture Edili opera a Vigasio e in provincia di Verona con servizi di cartongesso, pitture interne ed esterne e isolamento termico."
-        : "Informativa di GC Finiture Edili su privacy, cookie e trattamento dei dati.";
+    const setMeta = (selector, attribute, value) => {
+      const element = document.querySelector(selector);
+      if (element && value) {
+        element.setAttribute(attribute, value);
+      }
+    };
 
-    document.title = pageTitle;
+    document.title = pageSeo.title;
 
-    const description = document.querySelector('meta[name="description"]');
-    if (description) {
-      description.setAttribute("content", pageDescription);
-    }
+    setMeta('meta[name="description"]', "content", pageSeo.description);
+    setMeta('meta[name="robots"]', "content", pageSeo.robots);
+    setMeta('meta[name="googlebot"]', "content", pageSeo.robots);
+    setMeta('meta[property="og:title"]', "content", pageSeo.title);
+    setMeta('meta[property="og:description"]', "content", pageSeo.description);
+    setMeta('meta[property="og:url"]', "content", pageSeo.canonical);
+    setMeta('meta[property="og:image"]', "content", pageSeo.image);
+    setMeta('meta[property="og:image:secure_url"]', "content", pageSeo.image);
+    setMeta('meta[property="og:image:alt"]', "content", pageSeo.imageAlt);
+    setMeta('meta[name="twitter:title"]', "content", pageSeo.title);
+    setMeta('meta[name="twitter:description"]', "content", pageSeo.description);
+    setMeta('meta[name="twitter:image"]', "content", pageSeo.image);
+    setMeta('meta[name="twitter:image:alt"]', "content", pageSeo.imageAlt);
 
     const canonical = document.querySelector('link[rel="canonical"]');
     if (canonical) {

@@ -1,15 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+>
   <url>
     <loc>https://gcfinitureedili.it/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://gcfinitureedili.it/#/privacy</loc>
-    <priority>0.4</priority>
-  </url>
-  <url>
-    <loc>https://gcfinitureedili.it/#/cookie</loc>
-    <priority>0.4</priority>
+    <image:image>
+      <image:loc>https://gcfinitureedili.it/images/photos/C7FE8A11-F78A-4753-B5EF-1AD5997D2EA3_1_105_c.jpeg</image:loc>
+      <image:title>Finiture edili interne a Verona</image:title>
+      <image:caption>Soggiorno rifinito con tinteggiatura interna e dettagli in cartongesso.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gcfinitureedili.it/images/photos/CD8F6436-7C85-4895-8B88-7F22AC5D5064_1_105_c.jpeg</image:loc>
+      <image:title>Controsoffitto e cartongesso</image:title>
+      <image:caption>Cucina rifinita con controsoffitto e illuminazione lineare integrata.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gcfinitureedili.it/images/photos/D13A7392-E408-4CEE-9377-F270E69A0893_1_105_c.jpeg</image:loc>
+      <image:title>Pitture interne</image:title>
+      <image:caption>Camera interna tinteggiata con pareti verdi e illuminazione lineare.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gcfinitureedili.it/images/photos/87448689-62DB-44AC-86DD-F32DB5551A09_1_105_c.jpeg</image:loc>
+      <image:title>Pitture esterne</image:title>
+      <image:caption>Facciata esterna tinteggiata con persiane verdi e finiture chiare.</image:caption>
+    </image:image>
   </url>
 </urlset>

@@ -113,7 +113,8 @@ function Hero() {
 
       <div className="hero__content">
         <p className="hero__label">{activeSlide.label}</p>
-        <h1>{activeSlide.title}</h1>
+        <h1>Cartongesso, pitture e isolamento termico a Verona</h1>
+        <p className="hero__focus">{activeSlide.title}</p>
         <p className="hero__lead">{activeSlide.subtitle}</p>
         <div className="hero__actions">
           <ContactButton type="phone" className="btn--primary" size="large">

@@ -2,10 +2,14 @@
   "name": "GC Finiture Edili",
   "short_name": "GC Finiture",
   "description": "Cartongesso, pitture e isolamento termico a Vigasio, Verona e provincia.",
+  "id": "/",
   "start_url": "/",
+  "scope": "/",
+  "lang": "it-IT",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#30343a",
+  "categories": ["business", "productivity"],
   "icons": [
     {
       "src": "favicon/android-chrome-192x192.png",
