@@ -15,7 +15,7 @@ export const company = {
   phone: "+39 389 842 2177",
   whatsapp: "+39 389 842 2177",
   email: "",
-  domain: "https://lucamarastoni.github.io/GC",
+  domain: "https://gcfinitureedili.it",
   logo: "images/logo-gc-finiture-edili.png",
   mapsQuery: "Via Celestino Tomelleri 72, 37068 Vigasio VR",
   whatsappMessage: ""

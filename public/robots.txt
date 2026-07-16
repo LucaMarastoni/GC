@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://lucamarastoni.github.io/GC/sitemap.xml
+Sitemap: https://gcfinitureedili.it/sitemap.xml
