@@ -24,15 +24,45 @@ function Hero() {
   }, []);
 
   useEffect(() => {
-    if (isReducedMotion || document.hidden) {
+    if (isReducedMotion || slideCount < 2) {
       return undefined;
     }
 
-    const interval = window.setInterval(() => {
-      setCurrent((index) => (index + 1) % slideCount);
-    }, 6500);
+    let interval = null;
 
-    return () => window.clearInterval(interval);
+    const stopAutoplay = () => {
+      if (interval) {
+        window.clearInterval(interval);
+        interval = null;
+      }
+    };
+
+    const startAutoplay = () => {
+      stopAutoplay();
+
+      if (!document.hidden) {
+        interval = window.setInterval(() => {
+          setCurrent((index) => (index + 1) % slideCount);
+        }, 6500);
+      }
+    };
+
+    const handleVisibilityChange = () => {
+      if (document.hidden) {
+        stopAutoplay();
+        return;
+      }
+
+      startAutoplay();
+    };
+
+    startAutoplay();
+    document.addEventListener("visibilitychange", handleVisibilityChange);
+
+    return () => {
+      stopAutoplay();
+      document.removeEventListener("visibilitychange", handleVisibilityChange);
+    };
   }, [isReducedMotion, slideCount]);
 
   const statusText = useMemo(

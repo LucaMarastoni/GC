@@ -4,7 +4,7 @@ import { seoData } from "../data/seo.js";
 function SeoContent() {
   return (
     <section className="section seo-local section--surface" id="finiture-edili-verona">
-      <div className="container seo-local__grid">
+      <div className="container">
         <div className="seo-local__content" data-reveal>
           <SectionHeading
             eyebrow="Finiture edili Verona"
@@ -22,15 +22,6 @@ function SeoContent() {
             </p>
           </div>
         </div>
-
-        <aside className="seo-local__panel" aria-label="Zone servite" data-reveal>
-          <h3>Zone servite</h3>
-          <ul>
-            {seoData.serviceAreas.map((area) => (
-              <li key={area}>{area}</li>
-            ))}
-          </ul>
-        </aside>
       </div>
 
       <div className="container seo-faq" data-reveal>
